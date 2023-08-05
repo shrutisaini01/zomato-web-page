@@ -89,15 +89,19 @@ body {
   text-align: center;
 }
 
-@media (min-width: 768px) {
-  .navbar {
-    justify-content: space-between;
-    padding: 10px 30px;
-  }
-  .explore_menu_list {
-    display: flex;
-    gap: 15px;
-  }
+.view {
+  text-align: center;
+  margin: 20px;
+}
+
+.explore_menu_list {
+  display: flex;
+  gap: 15px;
+}
+
+#pizza_card {
+  margin-top: -20px;
+  margin-bottom: 20px;
 }
 
 .hero_container {
@@ -107,9 +111,24 @@ body {
   align-items: center;
 }
 
-#pizza_card {
-  margin-top: -20px;
-  margin-bottom: 20px;
+.resorts {
+  margin: 20px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.resorts_text {
+  font-size: 38px;
+  color: black;
+  font-weight: bolder;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    justify-content: space-between;
+    padding: 10px 30px;
+  }
 }
 
 @media (min-width: 1024px) {
